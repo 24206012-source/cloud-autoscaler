@@ -68,3 +68,60 @@ This allows:
 ---
 
 ## 🧩 System Architecture
+
+---
+
+## 🔄 Working Flow
+
+1. User opens the dashboard
+2. System generates current load
+3. ML model predicts future load
+4. Scaling decision is made
+5. Dashboard updates with results
+
+---
+
+## 📊 Output
+
+The dashboard displays:
+- Current Load (%)
+- Predicted Load (%)
+- Active Servers
+- Load Graph
+- Server Status
+
+---
+
+## ⚡ Scaling Logic
+
+- Load > 75% → Scale UP
+- Load < 40% → Scale DOWN
+- Otherwise → Maintain
+
+---
+
+## 📌 Future Enhancements
+
+- Integration with AWS Auto Scaling
+- Real-time data monitoring
+- Advanced ML models
+- Multi-node distributed system
+
+---
+
+## 📚 Conclusion
+
+This project demonstrates how **AI can enhance cloud computing** by enabling predictive and efficient resource management.
+
+---
+
+## 👨‍💻 Authors
+
+- Shreesh (Roll No: 80)
+- Sahil (Roll No: 72)
+
+---
+
+## 🌍 Live Demo
+
+https://cloud-autoscaler.onrender.com/
